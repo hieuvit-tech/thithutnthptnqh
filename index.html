@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRA CỨU ĐIỂM KỲ THI THỬ TỐT NGHIỆP TRUNG HỌC PHỔ THÔNG NĂM 2025</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bảng responsive -->
+    <style>
+        .responsive-table {
+            width: 100%;
+            border-collapse: collapse;
+            overflow-x: auto;
+            display: block;
+        }
+
+        .responsive-table th,
+        .responsive-table td {
+            padding: 8px;
+            border: 1px solid #ccc;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        @media (max-width: 768px) {
+            .responsive-table th,
+            .responsive-table td {
+                font-size: 13px;
+                padding: 6px;
+            }
+        }
+
+        .group-code {
+            margin-top: 20px;
+        }
+
+        .group-code h2 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Ảnh 2 bên -->
+    <div class="side-images">
+        <img src="ảnh thi bên trái.png" alt="Ảnh bên trái" class="side-img left-img">
+        <img src="ảnh thi bên phải.png" alt="Ảnh bên phải" class="side-img right-img">
+    </div>
+
+    <!-- Nội dung chính -->
+    <div class="container">
+        <div class="logo-container">
+            <img src="Untitled-1-08.png" alt="NQH Logo" class="logo">
+        </div>
+        <h1>TRA CỨU ĐIỂM KỲ THI THỬ TỐT NGHIỆP TRUNG HỌC PHỔ THÔNG NĂM 2025</h1>
+        <div class="search-container">
+            <input type="text" id="sbdInput" placeholder="Nhập số báo danh">
+            <button id="searchBtn">TRA CỨU</button>
+        </div>
+        <div id="resultContainer">
+            <!-- Kết quả hiển thị ở đây -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
