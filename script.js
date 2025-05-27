@@ -157,6 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'A02': ['Toán', 'Lý', 'Sinh'],
             'B00': ['Toán', 'Hóa', 'Sinh'],
             'B08': ['Toán', 'Sinh', 'Anh'],
+            'B03': ['Toán', 'Văn', 'Sinh'],
             'C01': ['Văn', 'Toán', 'Lý'],
             'C02': ['Văn', 'Toán', 'Hóa'],
             'C08': ['Văn', 'Hóa', 'Sinh'],
